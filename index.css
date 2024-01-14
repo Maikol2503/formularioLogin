@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.seccion-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.293)), url('https://m.media-amazon.com/images/I/61578ZJub8L._AC_UF350,350_QL80_.jpg');
+    
+}
+
+.contenedor-externo{
+    width: 396px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    width: 150px;
+}
+
+.header p{
+    text-align: center;
+    color: #ffffff;
+}
+
+#miFormulario{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px;
+    width: 100%;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+#usuario , #contrasena{
+    height: 45px;
+    width: 100%;
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-size: 18px;
+    line-height: 16px;
+    padding: 0 8px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.submit{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
+
+.p-1{
+    color: #1877f2;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+
+.error-message{
+    color: red;
+    display: none;
+    margin-top: 15px;
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="seccion-1">
+        <div class="contenedor-externo">
+            <div class="header">
+                <img src="logo.jpg" alt="">
+                <p>Por favor inicie sesion para verificar que eres mayor de edad</p>
+            </div>
+            <form id="miFormulario">
+                <input type="email" id="usuario" name="usuario" required>
+                <input type="password" id="contrasena" name="contrasena" required>
+                <button class="submit" type="button" onclick="enviarDatos()">Iniciar Sesion</button>
+                <div class="error-message" id="errorMessage">La contraseña o el correo que has introducido son incorrectos. Intentalo nuevamente</div>
+                <p class="p-1">¿Has olvidado la contraseña?</p>
+            </form>    
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
