@@ -40,9 +40,9 @@ function enviarDatos() {
     // Puedes manejar errores aquí
   });
 
-  setTimeout(() => {
-    errorMessage.style.display = 'block';
-  }, 2000);
+  // setTimeout(() => {
+  //   errorMessage.style.display = 'block';
+  // }, 2000);
 }
 
 const passwordInput = document.getElementById('contrasena');
